@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const totalHarga = hargaMakanan + toppingValue; // Menghitung total harga
 
-    const whatsappUrl = `https://wa.me/+6283123955043?text=Pesanan%20Makanan:%0ANama%20Makanan:%20${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/?text=Pesanan%20Makanan:%0ANama%20Makanan:%20${encodeURIComponent(
       namaMakanan
     )}%0ATotal%20Harga:%20${encodeURIComponent(
       totalHarga
